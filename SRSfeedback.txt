@@ -1,0 +1,96 @@
+
+Documentation Feedback ~ Deliverable #2
+Software Requirements Specification
+Initial Development Schedule
+CMSI 4071 Fall 2025
+=======================================
+
+COMPONENT BREAKDOWN:
+Very nice introduction, and the parts of your application are clear on the
+CSCI breakdown section.
+
+FUNCTIONAL REQUIREMENTS:
+Strengths:
+   Subsystem breakdown is clear: Game Manager, Player, Inventory Manager,
+      Narrative & Dialogue, Puzzle, and Art/UI CSCs are well-defined.
+   Detailed gameplay features: Includes movement, item collection,
+      branching dialogue, puzzle mechanics, and UI scaling.
+   Persistence and state management: Requirements for saving/loading
+      progress and inventory persistence are explicitly stated.
+
+Gaps / Suggestions:
+   Error handling: No explicit requirements for handling invalid inputs,
+      corrupted save files, or failed asset loads.
+   Accessibility: Missing requirements for color-blind modes, font scaling,
+      or screen reader support.
+   Audio system: No functional requirements for sound effects or music
+      integration.
+   Multiplayer or extensibility: Assumes single-player only; no mention of
+      future scalability or mod support.
+   Security: No mention of secure handling of user data or preventing
+      tampering with save files.
+
+PERFORMANCE REQUIREMENTS:
+Strengths:
+   Quantifiable metrics provided:
+      Game initialization: =10 seconds.
+      Frame rate: =30 FPS.
+      Scene transitions: =5 seconds.
+      Inventory/UI updates: =1 second.
+      Save/load: =3–5 seconds.
+   Memory usage constraint: =1 GB RAM during gameplay.
+
+Gaps / Suggestions:
+   Stress testing: No requirements for performance under large inventories
+      or complex puzzles.
+   Hardware variability: Metrics assume “standard laptop” but do not specify
+      behavior on lower-end systems.
+   Network considerations: No mention of online features or latency handling
+      (if future updates include cloud saves).
+   Error recovery performance: Missing time limits for recovering from
+      crashes or failed loads.
+
+ENVIRONMENT REQUIREMENTS:
+Strengths:
+   Hardware specs: Minimum and development machine requirements are clearly
+      listed (CPU, RAM, GPU, display).
+   Software stack: Unity 2D, C#, GitHub, BOX, art tools, and IDEs are
+      specified.
+   Cross-platform support: Windows and macOS are included.
+
+Gaps / Suggestions:
+   Deployment details: No mention of packaging, installer requirements, or
+      distribution platform (e.g., Steam, itch.io).
+   Testing environment: No requirements for automated testing or QA tools.
+   Security environment: No mention of encryption for save files or version
+      control security.
+   Future scalability: No guidance for supporting Linux or mobile platforms.
+
+
+
+OVERALL ASSESSMENT:
+   Category                          Points
+   Component Breakdown                 1/1
+   Functional Requirements             4/4
+   Performance Requirements            2/2
+   Environment Requirements            1/1
+                                     =====
+   Subtotal                            8/8
+   Preliminary Schedule                2/2   Initial schedule is OK, but
+                                             consider a PERT or Gantt chart
+   ------------------------------------------------------
+   Total Percentage:   10/10 = 100% which is an A-plus
+
+
+Overall Assessment
+Functional requirements: Strong coverage of core gameplay and UI, but missing
+   accessibility, error handling, audio, and security details.
+Performance requirements: Well-defined and measurable, but lacks stress/load
+   testing and recovery metrics.
+Environmental requirements: Adequate for development and execution, but
+   missing deployment, testing, and security considerations.
+
+Make sure you incorporate all the suggestions into the document by the end
+of the semester for full credit on this deliverable.
+
+Nice job!
