@@ -1,0 +1,89 @@
+
+Documentation Feedback ~ Deliverable #3
+Software Development Plan
+CMSI 4071 Fall 2025
+=======================================
+
+INTRODUCTION/DELIVERABLES SECTION:
+----------------------------------
+Strengths
+   Clear project scope: The introduction effectively outlines the game's
+      genre, inspiration, and core gameplay features.
+   Defined vertical slice: The focus on delivering one functional island
+      as a vertical slice is a smart and achievable goal.
+   Development activities listed: Key tasks like system implementation,
+      asset integration, and testing are mentioned.
+Suggestions
+   Clarify methodology: The document references an "Agile format" in the
+      development schedule, which contradicts the waterfall model.  If
+      this is a waterfall SDP, explicitly state that and align the
+      deliverables accordingly.
+   Include a high-level timeline or phase breakdown: A brief summary of
+      the waterfall phases (requirements, design, implementation,
+      testing, delivery) would help reinforce the structure.
+
+
+PROJECT RESOURCES SECTION:
+----------------------------------
+Strengths
+   Categorized resources: Human, hardware, and software resources are
+      clearly separated.
+   Detailed hardware specs: Includes both minimum and development machine
+      specs, which is helpful for understanding performance expectations.
+   Comprehensive software list: Covers game engine, programming language,
+      version control, art tools, and IDEs.
+Suggestions
+   Include licensing or cost considerations: Even if using free tools,
+      mention whether licenses are required (e.g., Adobe Photoshop).
+   Add version numbers consistently: Unity version is specified, but other
+      tools (e.g., Visual Studio, GitHub) could benefit from versioning
+      for reproducibility.
+
+
+PROJECT ORGANIZATION SECTION:
+----------------------------------
+Strengths
+   Defined roles and responsibilities: Each team member has a clear role
+      with specific tasks.
+   Balanced workload: Responsibilities are distributed across design,
+      programming, and testing.
+   Communication plan included: Weekly check-ins, GitHub for version
+      control, and BOX for backups are mentioned.
+   Merge conflict mitigation: Scene-based division in Unity is a smart
+      strategy.
+Suggestions
+   Add a visual org chart: Optional, but would enhance clarity.
+   Clarify decision-making process: Briefly describe how the team
+      resolves conflicts or makes design decisions.
+
+
+PROJECT SCHEDULE SECTION:
+----------------------------------
+Strengths
+   Detailed weekly breakdown: Tasks are mapped to specific weeks with
+      clear deliverables.
+   Sequential structure: Follows a logical progression from implementation
+      to testing and final delivery.
+   Aligns with waterfall phases: Despite the earlier mention of Agile,
+      the schedule itself is sequential.
+Suggestions
+   Include task dependencies: Indicate which tasks rely on the completion
+      of others.
+   Label the Gantt chart: Ensure the chart is clearly labeled and legible
+      in the final version.
+
+
+OVERALL ASSESSMENT:
+----------------------------------
+   Category                          Points
+   Project Deliverables                1
+   Project Resources                   1
+   Project Organization                1
+   Project Schedule                    2
+                                     =====
+   Subtotal                            5
+   ------------------------------------------------------
+   Total Percentage:   5/5 = 100% which is an A-plus
+
+
+Very nice and complete work on this document/deliverable.
