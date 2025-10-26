@@ -1,0 +1,34 @@
+
+
+HW 2 - Piloni & Miles Textbook
+CMSI 4071 Fall 2025
+
+Category        Weight     Earned
+===========    ========    ======
+Problem 1      [3 pts.]      3.0
+Problem 2      [4 pts.]      4.0
+Problem 3      [6 pts.]      6.0
+Problem 4      [9 pts.]      9.0
+Problem 5      [2 pts.]      2.0
+Problem 6      [7 pts.]      5.0
+Problem 7      [1 pt.]       1.0
+Problem 8      [3 pts.]      3.0
+Problem 9      [5 pts.]      5.0
+Problem 10     [4 pts.]      4.0
+
+      Subtotal [44 max]     44.0
+             Your Total     42.0 which is 95.46%
+
+         Letter grade   A
+
+problem 6, Some answers incorrect (e.g., "User Story" repeated instead
+   of "Estimate" and "Planning Poker").
+
+Your answers are well-structured, accurate, and demonstrate strong
+   understanding of Agile, Waterfall, estimation, and practical tools.
+   Most responses are complete and reasoned, with good examples.  Minor
+   improvements include correcting Problem 6 and aligning Agile phases
+   with standard terminology.  Overall, this is an excellent submission
+   that meets all requirements and shows clear engagement with the material.
+
+nice work!
