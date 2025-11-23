@@ -1,0 +1,115 @@
+
+Documentation Feedback ~ Deliverable #4
+Software Design Document ~ Architecture
+CMSI 4071 Fall 2025
+=======================================
+
+INTRODUCTION SECTION:
+   System objectives section
+      Strengths:
+         Clearly explains why the Game Manager is critical for maintaining
+            global state
+         Highlights interaction between subsystems (inventory, dialogue,
+            world objects)
+      Suggestions:
+         Add measurable objectives (e.g., load time under 3 seconds,
+            memory footprint)
+         Include future extensibility goals (e.g., adding multiplayer or
+            cloud saves)
+         Could mention user experience priorities (e.g., intuitive UI,
+            minimal input lag)
+
+
+   Hardware, software, and human interfaces section
+      Strengths:
+         Lists Unity version, input hardware (keyboard/mouse),
+            and GUI elements
+         Mentions third-party libraries (TextMeshPro, Cinemachine) and
+            their roles
+         Specifies platform support (Windows, macOS) and resolution defaults
+      Suggestions:
+         Add hardware requirements (CPU/GPU specs, RAM)
+         Include error handling for input devices (e.g., fallback for
+            missing mouse)
+         Document accessibility considerations (colorblind-friendly UI,
+            rebindable keys)
+         Expand on file interface with planned persistence strategy
+
+
+ARCHITECTURAL DESIGN SECTION:
+   Strengths:
+      States modular architecture with a persistent Game Manager
+         coordinating subsystems
+      Emphasizes loose coupling and event-driven communication
+   Suggestions:
+      Add design rationale for using a singleton Game Manager (pros/cons)
+      Include non-functional design considerations
+         (scalability, maintainability)
+      Could provide layered view (presentation, logic, data) for clarity
+
+
+   Major softwre components section
+      Strengths:
+         Lists key components (Game Manager, Player Controller,
+            Inventory Manager, Dialogue System, UI System)
+         Provides brief descriptions of responsibilities
+      Suggestions:
+         Add interfaces between components
+            (e.g., Game Manager <-> Dialogue System)
+         Include dependencies and data flow direction
+         Could specify technology choices for each component
+            (e.g., ScriptableObjects for items)
+         Mention error handling strategies for critical components
+            (e.g., missing item data)
+
+   Major software interactions section
+      Strengths:
+         Describes step-by-step interaction flow for gameplay events
+         Shows how Game Manager orchestrates subsystems
+      Suggestions:
+         Add protocol details (e.g., Unity event system, observer pattern)
+         Include sequence diagrams for critical workflows
+            (e.g., item usage, dialogue branching)
+         Document performance considerations
+            (e.g., avoiding frame drops during inventory updates)
+         Add error handling (e.g., what happens if required item is missing)
+
+   Architectural design diagrams section
+      Strengths:
+         Includes use case diagram, class diagram, and
+            component/deployment diagram
+         Diagrams show relationships and runtime interactions
+      Suggestions:
+         Ensure diagrams are fully labeled (some descriptions are textual,
+            but diagrams need legends)
+         Add state diagrams for complex components (e.g., Dialogue System)
+         Include consistency checks between diagrams and textual descriptions
+         Provide legends and stereotypes (e.g., <>, <>)
+
+
+OVERALL ASSESSMENT:
+   Category                          Points
+   INTRODUCTION                         1
+   System objectives                    1
+   H/W, S/W, Human I/F                  1
+
+   ARCHITECTURAL DESIGN SECTION:
+   Major softwre components             1
+   Major software interactions          1
+   Architectural design diagrams        5
+
+                                     ======
+   Subtotal                            10
+   ------------------------------------------------------
+   Total Percentage:  10/10 = 100% which is an A-plus
+
+
+Overall Completeness Assessment
+   Strengths: Good coverage of architecture, components, and interactions;
+               diagrams included; clear modular design
+   Gaps: Missing detailed rationale, explicit interface specifications,
+         non-functional requirements, and fully annotated diagrams
+   Agile vs Waterfall Fit: Document supports Agile modular design but could
+      adapt to waterfall by adding phase-based design rationale and
+      review checkpoints
+

@@ -1,0 +1,116 @@
+
+Documentation Feedback ~ Deliverable #4
+Software Design Document ~ Detailed Design
+CMSI 4071 Fall 2025
+==========================================
+
+DETAILED CSC AND CSU DESCRIPTIONS:
+   Strengths:
+      Clearly identifies major CSCs (Game Management, Player System,
+         Inventory & Item System, Dialogue & Quest System,
+         World Interaction System, UI System)
+      Each CSC includes CSUs with descriptive names and responsibilities
+         (e.g., GameManager.cs, InventoryManager.cs, DialogueManager.cs)
+      Provides purpose statements for each CSC and lists planned components
+         (e.g., PersistenceHandler, QuestManager)
+   Suggestions:
+      Missing design rationale for CSC decomposition
+         (why these subsystems were chosen)
+      Should include dependencies and interaction patterns between CSUs
+         (e.g., InventoryManager <-> UIManager)
+      Add error handling strategies for critical CSUs
+         (e.g., missing item data, failed scene load)
+      Consider specifying data flow direction and event-driven
+         communication details
+
+
+DETAILED CLASS DESCRIPTIONS:
+   Strengths:
+      Provides fields and methods for key classes like GameManager
+         and PlayerController
+      Includes short descriptions of class roles and responsibilities
+      Covers major functional areas (inventory, dialogue, item system)
+   Suggestions:
+      Add data types consistently for all fields and method parameters
+         (some are implied but not explicit)
+      Include method signatures with parameter and return types for clarity
+      Provide error handling or exception notes for critical methods
+         (e.g., ChangeScene, Interact)
+      Consider adding relationships between classes
+         (e.g., GameManager interacts with DialogueManager and
+            InventoryManager)
+
+DETAILED INTERFACE DESCRIPTIONS:
+   Strengths:
+      Lists interfaces between major systems
+         (Game <-> Inventory, Game <-> Dialogue,
+         Player <-> World, UI <-> Game Systems)
+      Provides brief descriptions of what data is exchanged and why
+   Suggestions:
+      Include protocol details
+         (e.g., Unity event system, observer pattern)
+      Add security considerations
+         (e.g., preventing unauthorized state changes)
+      Specify error handling and fallback behavior for
+         failed interactions
+      Consider adding performance constraints
+         (e.g., real-time UI updates without frame drops)
+
+DETAILED DATA STRUCTURE DESCRIPTIONS:
+   Strengths:
+      Defines ItemSO and Quest Data structures with fields and purposes
+      Uses ScriptableObject for item templates, which is appropriate
+         for Unity
+   Suggestions:
+      Add data types explicitly for all fields
+         (some are implied but not stated)
+      Include constraints (e.g., required fields, uniqueness)
+      Document validation rules (e.g., itemType must match predefined enum)
+      Consider adding example JSON or serialized formats for persistence
+
+DETAILED DESIGN DIAGRAMS:
+   Strengths:
+      Includes use case diagrams, class diagram, and activity diagrams
+         for item collection and dialogue flow
+      Diagrams show both structural and behavioral perspectives
+   Suggestions:
+      Ensure diagrams are fully labeled
+         (some appear incomplete or lack legends)
+      Add state diagrams for complex components (e.g., DialogueManager)
+      Include consistency checks between diagrams and textual descriptions
+      Provide legends and stereotypes (e.g., <>, <>)
+
+DATABASE DESIGN AND DESCRIPTION:
+   Not Applicable
+
+
+----------------------------------------------
+OVERALL ASSESSMENT:
+   Category                          Points
+   CSC/CSU Descriptions:                2 of  2
+   Class Descriptions:                  3 of  3
+   Interface Descriptions:              3 of  3
+   Data structure Descriptions:         1 of  1
+   Design diagrams:                     4 of  4
+   Database design/descriptions:        2 of  2
+                                     ===========
+   Subtotal                            15 of 15
+   ------------------------------------------------------
+   Total Percentage:  15/15 = 100% which is an A-plus
+
+
+Overall Completeness Assessment
+   Strengths: Good coverage of CSC/CSU, class details, interfaces, and
+               data structures; strong alignment with Unity architecture;
+               diagrams included
+   Gaps: Missing detailed rationale, explicit data types, error handling,
+         and fully annotated diagrams
+   Agile vs Waterfall Fit: Document supports Agile modular design but could
+      adapt to waterfall by adding phase-based design rationale and
+      review checkpoints
+
+VERY nice job on this document overall.  You have done amazing design work
+on this project and it shows how you care about the craft of software
+design, specification, and development!
+
+Great work!
